@@ -68,7 +68,7 @@ We will use cyclic from gef tools to know the exact offset, as we can see in the
 cyclic 600 -n 8
 
 
--n 8 : cause we have a 64 bits 
+-n 8 : cause we have a 64 bits (not that important)
 
 ```sh
 $rsp   : 0x007fffffffdce8  →  "paaaaaacqaaaaaacraaaaaacsaaaaaactaaaaaacuaaaaaacva[...]"
