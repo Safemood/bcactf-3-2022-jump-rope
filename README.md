@@ -184,6 +184,6 @@ p.interactive()
 I didn't solve this challenge during the competition because of the "endbr64" but the  exploit does work on the remote server except i didn't try that only after the CTF did end 💢😤
 
 
-The lesson learned from here is that you should run your exploit on the remote target even if it's not working locally 🤓
+Lesson learned from here is that you should run your exploit on the remote target even if it's not working locally 🤓
 
 
