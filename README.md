@@ -7,7 +7,7 @@ Here at BCA, we take fitness very seriously. Lately, our gym teachers have been 
 
 I did download the challenge files 
 
-First lets run checksec 
+First lets run checksec :
 
 ```sh
 Arch:     amd64-64-little
@@ -17,7 +17,7 @@ Arch:     amd64-64-little
     PIE:      No PIE (0x400000)
 ```
 
-NX enabled : will prevent shellcode exectusion
+NX enabled : will prevent shellcode execution
 
 Running the binary
 
